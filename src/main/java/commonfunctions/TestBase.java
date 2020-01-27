@@ -36,7 +36,8 @@ public class TestBase
         //driver = new FirefoxDriver();
 
         driver.manage().window().maximize();
-        driver.get("https://www.tuko.co.ke/");
+        ConfigDataProvider config = new ConfigDataProvider();
+        driver.get(config.getURL());
     }
 
     @AfterSuite

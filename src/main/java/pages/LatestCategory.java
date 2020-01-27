@@ -1,5 +1,6 @@
 package pages;
 
+import commonfunctions.CommonMethods;
 import commonfunctions.FaceBookLogin;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -10,6 +11,10 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 public class LatestCategory
@@ -31,8 +36,10 @@ public class LatestCategory
     {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         WebElement element = driver.findElement(By.xpath("(//span[contains(@class,'headline-hover-inner')])[13]"));
+        String linkTitle = element.getText();
         Actions actions = new Actions(driver);
         actions.moveToElement(element).click().perform();
+        System.out.println(linkTitle);
     }
 
     public void getAllPageLinks()
@@ -46,11 +53,11 @@ public class LatestCategory
         }
     }
 
-    public void scrollToElement() throws InterruptedException
+    public void scrollToElement()
     {
         WebElement element_link = driver.findElement(By.xpath("(//span[contains(@class,'headline-hover-inner')])[12]"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element_link);
-        Thread.sleep(10000);
+        //Thread.sleep(10000);
 
     }
     public void searchFaceBookIcon()
@@ -59,11 +66,25 @@ public class LatestCategory
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element);
     }
 
-    public void postStory() throws InterruptedException
+    public void postStory() throws IOException
     {
+        String currentUrl = driver.getCurrentUrl();
+        //Write data into properties file
+        String path = System.getProperty("user.dir");
+        File file = new File(path +"/src/main/java/commonfunctions/Validation.properties");
+        file.createNewFile();
+
+        Properties pr = new Properties();
+        pr.setProperty("CurrentStoryURL", currentUrl);
+
+        FileOutputStream fis = new FileOutputStream(file);
+        pr.store(fis, "Test Data");
+
+        fis.close();
+
         WebElement fb_element = driver.findElement(By.xpath("//a[@class='c-article-share-item']"));
         fb_element.click();
-        Thread.sleep(10000);
+        //Thread.sleep(10000);
         String windowHandler = driver.getWindowHandle();// Store the current window handle
         System.out.println(windowHandler);
 
@@ -80,17 +101,17 @@ public class LatestCategory
 
     public void publishStory() throws InterruptedException
     {
+        CommonMethods methods = new CommonMethods(driver);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
         WebElement publish = driver.findElement(By.xpath("//span[contains(.,'Post to Facebook')]"));
         WebElement say_something = driver.findElement(By.xpath("//textarea[contains(@title,'Say something about this...')]"));
-        WebElement story_title = driver.findElement(By.xpath("//div[contains(@class,'unclickableMask')]"));
-        story_title.getText();
-        System.out.println("The story title is  "+ story_title);
+        //WebElement story_title = driver.findElement(By.xpath("//div[contains(@class,'unclickableMask')]"));
+        //story_title.getText();
+        //System.out.println("The story title is  "+ story_title);
         //(//div[contains(@data-testid,'post_message')])[1]
                 //(//a[contains(@rel,'noopener nofollow')])[3]
-        say_something.sendKeys("This is for Demo");
+        say_something.sendKeys("Chweya Charles commented");
         publish.click();
-        Thread.sleep(1000);
-        //span[contains(.,'Post to Facebook')]
+        Thread.sleep(10000);
     }
 }
