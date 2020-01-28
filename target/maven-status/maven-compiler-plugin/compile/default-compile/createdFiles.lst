@@ -1,0 +1,10 @@
+commonfunctions\ConfigDataProvider.class
+commonfunctions\FaceBookLogin.class
+commonfunctions\TestBase.class
+pages\PoliticsCategory.class
+pages\HomePage.class
+pages\LocalCategory.class
+commonfunctions\WaitHelpers.class
+pages\LatestCategory.class
+pages\EntertainmentCategory.class
+commonfunctions\CommonMethods.class

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="All Test Suite" duration-ms="101612" started-at="2020-01-28T10:16:16 EAT" finished-at="2020-01-28T10:17:58 EAT">
+    <groups>
+    </groups>
+    <test name="/home/jb/IdeaProjects/websitetuko repo /jonakyp/websitetuko.git" duration-ms="101612" started-at="2020-01-28T10:16:16 EAT" finished-at="2020-01-28T10:17:58 EAT">
+      <class name="pages.LatestCategoryTest">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:pages.LatestCategoryTest@34abdee4]" name="launchBrowser" is-config="true" duration-ms="53523" started-at="2020-01-28T10:15:22 EAT" finished-at="2020-01-28T10:16:16 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="navigateToLatestNews()[pri:1, instance:pages.LatestCategoryTest@34abdee4]" name="navigateToLatestNews" duration-ms="4079" started-at="2020-01-28T10:16:16 EAT" finished-at="2020-01-28T10:16:20 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToLatestNews -->
+        <test-method status="PASS" signature="getAllPageLinks()[pri:2, instance:pages.LatestCategoryTest@34abdee4]" name="getAllPageLinks" duration-ms="97" started-at="2020-01-28T10:16:20 EAT" finished-at="2020-01-28T10:16:20 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getAllPageLinks -->
+        <test-method status="PASS" signature="scrollToLink()[pri:3, instance:pages.LatestCategoryTest@34abdee4]" name="scrollToLink" duration-ms="30" started-at="2020-01-28T10:16:20 EAT" finished-at="2020-01-28T10:16:20 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scrollToLink -->
+        <test-method status="PASS" signature="clickPageLink()[pri:4, instance:pages.LatestCategoryTest@34abdee4]" name="clickPageLink" duration-ms="3654" started-at="2020-01-28T10:16:20 EAT" finished-at="2020-01-28T10:16:24 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickPageLink -->
+        <test-method status="PASS" signature="postStory()[pri:5, instance:pages.LatestCategoryTest@34abdee4]" name="postStory" duration-ms="8468" started-at="2020-01-28T10:16:24 EAT" finished-at="2020-01-28T10:16:33 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postStory -->
+        <test-method status="PASS" signature="publishStory()[pri:7, instance:pages.LatestCategoryTest@34abdee4]" name="publishStory" duration-ms="10228" started-at="2020-01-28T10:16:33 EAT" finished-at="2020-01-28T10:16:43 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- publishStory -->
+        <test-method status="PASS" signature="validatePost()[pri:8, instance:pages.LatestCategoryTest@34abdee4]" name="validatePost" duration-ms="74732" started-at="2020-01-28T10:16:43 EAT" finished-at="2020-01-28T10:17:58 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePost -->
+        <test-method status="PASS" signature="TearDownTest()[pri:0, instance:pages.LatestCategoryTest@34abdee4]" name="TearDownTest" is-config="true" duration-ms="1099" started-at="2020-01-28T10:17:58 EAT" finished-at="2020-01-28T10:17:59 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDownTest -->
+      </class> <!-- pages.LatestCategoryTest -->
+    </test> <!-- /home/jb/IdeaProjects/websitetuko repo /jonakyp/websitetuko.git -->
+  </suite> <!-- All Test Suite -->
+</testng-results>

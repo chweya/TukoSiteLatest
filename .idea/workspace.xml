@@ -2,27 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e54924cc-58fa-45d9-92cd-c6b826b8098d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/commands/all-containers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/commands/clear_all_containers_and_image.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/commands/remove-all-stopped-containers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/commands/remove_dangling_images.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/commands/running-containers.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/compose/standalone_chrome_compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/compose/standalone_chrome_compose_debug.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/compose/webdriver_hub_compose.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/compose/webdriver_hub_compose_debug.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/docker/webdriver/build.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/CommonMethods.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/Config.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/ConfigDataProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/Validation.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/WaitHelpers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/CHARLES_QA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pages/TestListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/commonfunctions/FaceBookLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/FaceBookLogin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LatestCategory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LatestCategory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/commonfunctions/Validation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/commonfunctions/Validation.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/TukoSite.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonfunctions/CommonMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commonfunctions/CommonMethods.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonfunctions/ConfigDataProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commonfunctions/ConfigDataProvider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonfunctions/FaceBookLogin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commonfunctions/FaceBookLogin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonfunctions/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commonfunctions/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/commonfunctions/WaitHelpers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/commonfunctions/WaitHelpers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/EntertainmentCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/EntertainmentCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LatestCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LatestCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/LocalCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/LocalCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pages/PoliticsCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/PoliticsCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/TukoSite.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/pages/LatestCategoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/pages/LatestCategoryTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,12 +36,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/pages/LatestCategory.java">
+        <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-38">
-              <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+            <state relative-caret-position="204">
+              <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="507">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1075#1076#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,11 +61,32 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="46" selection-start-line="46" selection-end-line="46" />
+            <state relative-caret-position="323">
+              <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="371">
+              <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="595">
+              <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -66,6 +99,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>groupId</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -87,9 +125,11 @@
         <option value="$PROJECT_DIR$/src/main/java/commonfunctions/ExtentTestManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonfunctions/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonfunctions/FaceBookLogin.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/pages/TestListener.java" />
         <option value="$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
       </list>
     </option>
   </component>
@@ -99,6 +139,22 @@
         <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TukoSite" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="TukoSite" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="2232" />
@@ -112,7 +168,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -150,14 +206,6 @@
               <item name="TukoSite" type="b2602c69:ProjectViewProjectNode" />
               <item name="TukoSite" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TukoSite" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TukoSite" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -179,15 +227,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/tukowebsite-develop" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/websitetuko-master" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="com.genymobile.genymotion.ide.idea.GdmSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -206,16 +254,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LatestCategoryTest">
-    <configuration name="HomePage_Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pages.HomePage_Test" />
+  <component name="RunManager" selected="TestNG.C:/Users/CHARLES-QA/eclipse-workspace/IntelliJProjects/TukoSite/testng.xml">
+    <configuration name="C:/Users/CHARLES-QA/eclipse-workspace/IntelliJProjects/TukoSite/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="TukoSite" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pages.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -292,11 +337,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/CHARLES-QA/eclipse-workspace/IntelliJProjects/TukoSite/testng.xml" />
         <item itemvalue="TestNG.LatestCategoryTest" />
         <item itemvalue="TestNG.LatestCategoryTest.navigateToLatestNews" />
         <item itemvalue="TestNG.LatestCategoryTest.getAllPageLinks" />
         <item itemvalue="TestNG.LatestCategoryTest.init" />
-        <item itemvalue="Application.HomePage_Test" />
       </list>
     </recent_temporary>
   </component>
@@ -314,15 +359,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LatestCategoryTest - 2020.01.27 at 13h 33m 58s.xml">
-      <configuration name="LatestCategoryTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LatestCategoryTest - 2020.01.27 at 13h 39m 42s.xml">
-      <configuration name="LatestCategoryTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="LatestCategoryTest - 2020.01.27 at 13h 46m 59s.xml">
-      <configuration name="LatestCategoryTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="LatestCategoryTest - 2020.01.27 at 14h 22m 54s.xml">
       <configuration name="LatestCategoryTest" configurationId="TestNG" />
     </history-entry>
@@ -344,12 +380,20 @@
     <history-entry file="LatestCategoryTest - 2020.01.27 at 15h 52m 51s.xml">
       <configuration name="LatestCategoryTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="LatestCategoryTest - 2020.01.27 at 16h 30m 19s.xml">
+      <configuration name="LatestCategoryTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_CHARLES-QA_eclipse-workspace_IntelliJProjects_TukoSite_testng_xml - 2020.01.28 at 08h 52m 45s.xml">
+      <configuration name="C:/Users/CHARLES-QA/eclipse-workspace/IntelliJProjects/TukoSite/testng.xml" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="C__Users_CHARLES-QA_eclipse-workspace_IntelliJProjects_TukoSite_testng_xml - 2020.01.28 at 10h 13m 12s.xml">
+      <configuration name="C:/Users/CHARLES-QA/eclipse-workspace/IntelliJProjects/TukoSite/testng.xml" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1568" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1584" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Learn" order="3" />
@@ -357,12 +401,12 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.27" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.27" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.27672035" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.27666667" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3288889" />
@@ -370,7 +414,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3296" />
       <window_info anchor="right" id="Palette&#9;" order="5" />
       <window_info anchor="right" id="Perfecto Lab" order="6" />
       <window_info anchor="right" id="Perfecto Dashboard" order="7" />
@@ -506,37 +550,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/ExtentTestManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="79" lean-forward="true" selection-start-line="23" selection-start-column="79" selection-end-line="23" selection-end-column="79" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/ExtentManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="107" lean-forward="true" selection-start-line="16" selection-start-column="107" selection-end-line="16" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/TestListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="29" column="44" selection-start-line="29" selection-start-column="44" selection-end-line="29" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/ExtentTestManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/ExtentManager.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/TestListener.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/FaceBookLogin.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -547,33 +563,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LatestCategory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
+        <state relative-caret-position="268">
+          <caret line="86" column="30" lean-forward="true" selection-start-line="86" selection-start-column="30" selection-end-line="86" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/15b577d3-1847-405d-beba-f9410d4f1d3c-result.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/allure-results/bc26d7bb-b16d-4b28-aade-98bdacbc75e7-container.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/pages/LatestCategoryTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        <state relative-caret-position="323">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/LatestCategory.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-38">
-          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        <state relative-caret-position="595">
+          <caret line="35" column="30" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/pages/TestListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="84" column="4" selection-start-line="84" selection-start-column="4" selection-end-line="84" selection-end-column="4" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/commonfunctions/TestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="507">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1075#1076#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
         </state>
       </provider>
     </entry>
