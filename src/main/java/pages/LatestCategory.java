@@ -53,11 +53,10 @@ public class LatestCategory
         }
     }
 
-    public void scrollToElement()
-    {
+    public void scrollToElement() throws InterruptedException {
         WebElement element_link = driver.findElement(By.xpath("(//span[contains(@class,'headline-hover-inner')])[12]"));
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", element_link);
-        //Thread.sleep(10000);
+        Thread.sleep(10000);
 
     }
     public void searchFaceBookIcon()

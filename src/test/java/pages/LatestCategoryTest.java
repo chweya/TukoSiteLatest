@@ -38,8 +38,7 @@ public class LatestCategoryTest extends TestBase
     @Severity(SeverityLevel.CRITICAL)
     @Owner("chweyaacharles@gmail.com")
     @Test(priority = 3)
-    public void scrollToLink()
-    {
+    public void scrollToLink() throws InterruptedException {
         LatestCategory latest = PageFactory.initElements(driver,LatestCategory.class);
         latest.scrollToElement();
     }
