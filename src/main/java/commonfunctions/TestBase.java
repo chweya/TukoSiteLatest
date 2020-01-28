@@ -16,7 +16,8 @@ public class TestBase
     {
         ChromeOptions options = new ChromeOptions();
         options.addArguments("--disable-notifications");
-        System.setProperty("webdriver.chrome.driver","C:\\Users\\CHARLES-QA\\Desktop\\Lori\\chromedriver.exe");
+        //System.setProperty("webdriver.chrome.driver","C:\\Users\\CHARLES-QA\\Desktop\\Lori\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver","\\usr/bin\\-chrome\\chromedriver.exe");
         driver = new ChromeDriver(options);
         //System.setProperty("webdriver.gecko.driver","C:\\Users\\CHARLES-QA\\Desktop\\geckodriver.exe");
         //driver = new FirefoxDriver();
