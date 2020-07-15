@@ -30,7 +30,6 @@ public class LatestCategoryTest extends TestBase
     {
         LatestCategory latest = PageFactory.initElements(driver,LatestCategory.class);
         latest.getAllPageLinks();
-    //0704903554: celestine
     }
 
     @Epic("Lori Tuko Website Automation")
