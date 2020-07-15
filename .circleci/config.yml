@@ -6,4 +6,8 @@ orbs:
 workflows:
   maven_test:
     jobs:
-      - maven/test # checkout, build, test, and upload test results
+      build:
+        docker:
+           - image: selenium/standalone-chrome:3.1.0
+        steps:   
+           run: maven/test # checkout, build, test, and upload test results
